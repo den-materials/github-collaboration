@@ -5,9 +5,8 @@ Location: SF
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-<!--Useless comment-->
-
 <!--Actually 11:05 WDI2-->
+<!-- 11:06 WDI3 -->
 
 <!--11:15 5 minutes -->
 
@@ -40,6 +39,7 @@ Location: SF
 * **Use** git to stage and commit changes locally.
 * **Explain** what the following terms mean for GitHub: pull, push, fork, clone, pull request.
 
+<!--11:09 WDI3 -->
 <!--11:20 5 minutes -->
 
 ## Branches
@@ -66,7 +66,8 @@ Terminology: HEAD is simply a reference to the current or most recent commit!
  interfering. When a feature is complete, it can be merged back into master.
  3. To allow easy bug fixes on a stable version while features are being developed.
 
-<!--Actually 11:12-->
+<!--Actually 11:12 WDI2-->
+<!--11:13 WDI3 -->
 
 <!--11:25 5 minutes -->
 
@@ -82,6 +83,7 @@ Fetching, merging, and pulling are related commands that you will frequently use
 
 ![image](https://cloud.githubusercontent.com/assets/6520345/15020568/663aa804-11d7-11e6-83f6-774e43bc2ea6.png)
 
+<!--11:17 WDI3 -->
 <!--11:30 5 minutes -->
 
 ## Collaboration Workflows
@@ -97,7 +99,7 @@ There are two main scenarios for collaborating on coding projects:
 
 <!--Actually 11:28 when devs reading -->
 <!--11:37 to get started on lab -->
-
+<!--WDI3 11:39 to get started on lab, because I decided to model a merge conflict...I think we should add this as its own section -->
 <!--11:35 45 minutes -->
 
 ## Practice: Create and resolve a merge conflict
@@ -120,9 +122,10 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 11. Finally, go back to the GitHub repository and accept Partner2's pull request (there should not be any merge conflicts any more).
 12. Feel free to delete this practice repository from your local machine and from GitHub. This workflow was intentionally sloppy and I'm hoping that you learned a little bit of what *not* to do.
 
-<!--Actually 12:21 -->
+<!--Actually 12:21 WDI2-->
+<!--12:07 WDI3 -->
 
-<!--11:20 5 minutes -->
+<!--12:20 5 minutes -->
 
 ## Talking Points for Teams
 
@@ -136,7 +139,7 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 
 5. When merge conflicts arise, it's up to the individual contributor to resolve them. But work with your team! Follow the steps for [resolving merge conflicts locally](#resolving-merge-conflicts-locally), make sure to delete any merge junk from your code, and then push your cleaned-up branch to GitHub.  
 
-<!--11:25 5 minutes -->
+<!--12:25 5 minutes -->
 
 ## Resources
 
