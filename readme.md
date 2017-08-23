@@ -109,10 +109,10 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 
 1. Pair up. Pick one person to be Partner1 and one to be Partner2 throughout this exercise.
 2. Have Partner1 create a brand new repository on GitHub.
-2. Partner1 should now create a new project directory locally, generate a boilerplate `index.html` file, create a `readme.md` with some content, and push the new app to the remote repository.
+2. Partner1 should now create a new project directory locally (don't clone), generate a boilerplate `index.html` file, create a `readme.md` with some content, and push the new app to the remote repository.
 4. Partner1 should [add Partner2 as a collaborator](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/)
 3. Partner2 (the collaborator) should then clone this repository.
-4. Each person should start a new feature branch.  (Name them different things, like `better-readme` and `best-readme`.) You can check that you have the new branches with `git branch`-that will print all of the branch names.  Make sure you **do all your work on your own branch**, NOT on `master`.
+4. Each partner should create and checkout a new feature branch.  (Name them different things, like `better-readme` and `best-readme`.) You can check that you have the new branches with `git branch`-that will print all of the branch names.  Make sure you **do all your work on your own branch**, NOT on `master`.
 5. Each person should now change the README significantly, and add 2 elements to `index.html`.  
 6. Now, have Partner1 (repo creator) commit and push the work to GitHub on *their* branch. (E.g., `git push origin better-readme`.)  Open a pull request from the new branch to the master branch.
 7. Partner2 (the collaborator) should commit their changes and push the work to GitHub on *their* branch. (E.g., `git push origin best-readme`.) Open a pull request from the new branch to the master branch.
@@ -121,6 +121,15 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 10. Partner2 should push the fixed version to GitHub.  
 11. Finally, go back to the GitHub repository and accept Partner2's pull request (there should not be any merge conflicts any more).
 12. Feel free to delete this practice repository from your local machine and from GitHub. This workflow was intentionally sloppy and I'm hoping that you learned a little bit of what *not* to do.
+
+### Bonus
+
+If you have time, try the following:
+
+1. Have Partner1 make yet another change to the `README` file, and push their branch up to GitHub.
+2. Open a Pull Request for Partner1's changes.
+3. Resolve the conflicts in the Pull Request dialog.
+4. Merge the Pull Request into `master`.
 
 <!--Actually 12:21 WDI2-->
 <!--12:07 WDI3 -->
