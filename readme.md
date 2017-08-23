@@ -7,6 +7,7 @@ Location: SF
 
 <!--Actually 11:05 WDI2-->
 <!-- 11:06 WDI3 -->
+<!--WDI4 11:02 -->
 
 <!--11:15 5 minutes -->
 
@@ -68,6 +69,7 @@ Terminology: HEAD is simply a reference to the current or most recent commit!
 
 <!--Actually 11:12 WDI2-->
 <!--11:13 WDI3 -->
+<!--11:11 WDI4 -->
 
 <!--11:25 5 minutes -->
 
@@ -82,6 +84,8 @@ Fetching, merging, and pulling are related commands that you will frequently use
 [`git pull`](https://git-scm.com/docs/git-pull) is the combination of fetching and merging to the newly fetched version of the current branch.
 
 ![image](https://cloud.githubusercontent.com/assets/6520345/15020568/663aa804-11d7-11e6-83f6-774e43bc2ea6.png)
+<!--WDI4 11:14 -->
+
 
 <!--11:17 WDI3 -->
 <!--11:30 5 minutes -->
@@ -100,6 +104,7 @@ There are two main scenarios for collaborating on coding projects:
 <!--Actually 11:28 when devs reading -->
 <!--11:37 to get started on lab -->
 <!--WDI3 11:39 to get started on lab, because I decided to model a merge conflict...I think we should add this as its own section -->
+<!--WDI4 11:21, 11:26 turning over to devs -->
 <!--11:35 45 minutes -->
 
 ## Practice: Create and resolve a merge conflict
@@ -131,6 +136,7 @@ If you have time, try the following:
 3. Resolve the conflicts in the Pull Request dialog.
 4. Merge the Pull Request into `master`.
 
+<!--WDI4 Folks started talking to their squads between 12 and 12:05 on their own-->
 <!--Actually 12:21 WDI2-->
 <!--12:07 WDI3 -->
 
