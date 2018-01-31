@@ -53,8 +53,6 @@ What makes a branch special in git, is that we're always on a specific branch, a
 
 Terminology: HEAD is simply a reference to the current or most recent commit!
 
-<img src="https://www.atlassian.com/git/images/tutorials/collaborating/using-branches/01.svg" width="70%">
-
 ### Q. Why is branching an important part of git?
 
 > A. Branches are useful for many reasons, but some of the most common ones:
@@ -73,6 +71,8 @@ Terminology: HEAD is simply a reference to the current or most recent commit!
 
 <!--11:25 5 minutes -->
 
+![doc brown](http://www.gamedev.ru/files/images/doc-brown1-git.jpg)
+
 ## `git fetch`, `git merge`, and `git pull`
 
 Fetching, merging, and pulling are related commands that you will frequently use to update your local repository to include your collaborator's work.
@@ -90,6 +90,32 @@ Fetching, merging, and pulling are related commands that you will frequently use
 <!--11:17 WDI3 -->
 <!--11:30 5 minutes -->
 
+
+
+## Merge Demo
+You're going to role play two people. One person working on master, the other on a branch. We're going to demonstrate a simple `merge` scenario in Git.
+
+1. Make a new directory and `git init` it.
+2. `Touch` a new HTML file.
+3. Add a code to it.
+4. Commit it.
+5. Create a new branch, but don't hop over to it yet. You can do a `git branch {branch-name}` to create a branch without hopping over to it.
+6. Modify and commit your original code from step 3.
+7. Hop over to the branch you created in step 5.
+8. Edit the same line of code you added in step 3 and commit it.
+9. Do a `git merge master` to merge the most recent commits in master over to your current branch.
+
+> When you have a merge conflict, Git inserts some text in your file where it didn't know how to combine the changes from master with the code you're currently working on. Resolve it, save it, commit it, and move on.
+
+10. Get rid of the `<<<<<HEAD` stuff Git inserts, and figure out the best way to combine your code with the code from master.
+
+11. When you think you're done, test it, manually, via Mocha, whatever your team's protocol is. 
+12. Commit it.
+13. Hop back over to master and merge in your feature branch.
+
+> WARNING: There are good kinds of newbs and bad kinds. To keep on the good side, avoid putting problems into master. Deal with merge conflicts in your own branch and make sure everything works like a shiny new DeLorean before you allow for a merge into master.
+
+
 ## Collaboration Workflows
 
 There are two main scenarios for collaborating on coding projects:
@@ -99,7 +125,7 @@ There are two main scenarios for collaborating on coding projects:
 
 ![github-collab-diagram](https://cloud.githubusercontent.com/assets/7833470/12072895/69abd404-b0b1-11e5-8d8c-4ff54c13b0a0.png)
 
-**For this project, you should be collaborators!**
+**For this next project, you should be collaborators!**
 
 <!--Actually 11:28 when devs reading -->
 <!--11:37 to get started on lab -->
